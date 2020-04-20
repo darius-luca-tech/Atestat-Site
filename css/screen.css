@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #fff url('.../img /bg.png') fixed;
+  font: 14px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+.group:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+ul { 
+  list-style: none;
+}
+
+header, #wrap, footer {
+  width: 90%;
+  max-width: 1200px;
+  min-width: 750px;
+  border-radius: 20px;
+  margin: 50px auto;
+}
+
+header, footer {
+  background:rgba(239, 229, 208, 0.95);
+}
+
+#header-inner, #wrap-inner {
+  padding:30px;
+}
+
+#logo img {
+  float: img;
+  margin: 0 0 10px 70px;
+  width: 250px;
+  height: 130px;
+}
+
+#logo h1, #logo p {
+  float: right;
+  width: 50
+}
