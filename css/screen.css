@@ -159,45 +159,6 @@ header, footer{
 	outline:none;
 }
 
-#right{
-  float:right;
-  width:25%;
-}
-
-aside.mod{
-	border:1px solid #e2e1d4;
-	border-radius:8px;
-	margin:0 0 1.5em 0;
-	padding:15px;
-	margin:10px;
-	background:#fff;
-}
-
-aside.mod h3 {
-	padding:0 0 4px 0;
-	font-size:1.1em;
-	font-weight:bold;
-	text-transform:uppercase;
-	color:#a14141;
-	border-bottom:2px solid #ecebe1;
-	text-align:center;
-}
-
-
-aside.mod article {
-	width:90%;
-	margin:20px auto 0;
-}
-
-aside.mod article h3{
-	line-height:1.8em;
-	font-size:.9em;
-}
-
-aside.mod article p{
-	text-align:justify;
-}
-
 ul.press li{
 	margin:1em 0;
 	padding:0 0 1em 0;
@@ -226,9 +187,5 @@ ul.press li blockquote p.author{
 
 ul.press li.last {
 	padding-bottom: 0;
-	border-bottom: none;
-}
-
-.mod .last{
 	border-bottom: none;
 }
