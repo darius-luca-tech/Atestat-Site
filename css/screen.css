@@ -89,11 +89,6 @@ header, footer{
 	text-align:center;
 }
 
-#header-inner nav ul li a:hover{
-	text-shadow:1px 1px 1px rgba(0,0,0,0.7);
-	box-shadow: 0 0 5px 2px rgba(181,167,137,0.7) inset;
-}
-
 #wrap {
 	background:#f3f2e8;
 }
@@ -188,22 +183,6 @@ aside.mod h3 {
 	text-align:center;
 }
 
-ul.lst li{
-	padding:7px;
-	border-bottom:1px solid #f3f2e8;
-	overflow:hidden;
-	font-weight:bold;
-	color: #3792b3;
-}
-
-ul.lst li em {
-	float:right;
-	margin:0 0 0 5px;
-	font-size:1em;
-	font-style:normal;
-	font-weight:normal;
-	color:#9c836e;
-}
 
 aside.mod article {
 	width:90%;
@@ -232,9 +211,6 @@ ul.press li blockquote{
 	line-height:1.5em;
 }
 
-blockquote, q{
-	quotes:none;
-}
 
 ul.press li blockquote p{
 	margin:0 0 1em 0;
@@ -255,13 +231,4 @@ ul.press li.last {
 
 .mod .last{
 	border-bottom: none;
-}
-
-footer {
-	background:rgba(239,229,208,0.95) url(../img/footer_bg.jpg) repeat-x left bottom;
-}
-
-footer p{
-	padding:50px 30px 60px;
-	text-align:center;
 }
